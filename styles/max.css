@@ -1,0 +1,96 @@
+body{
+    background: #000000; 
+    position: absolute;
+    width: 1090px;
+    height: 1024px;
+    margin:auto;
+    left:0;
+    right: 350px;
+}
+
+#pokemon{
+    opacity: 0.6; 
+    
+}
+
+#avatar{
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 50%;
+    width: 157px;
+    height: 157px;
+    left: 92px;
+    top: 58px;
+    background: #D9D9D9;
+    border: 8px solid #264686;
+}
+.text1{
+    position: absolute;
+    width: 640px;
+    height: 75px;
+    left: 55px;
+    top: 38px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.main{
+    position: absolute;
+    width: 1090px;
+    height: 1024px;
+    left: 350px;
+    top: 0px;
+}
+
+.sidebar{
+    position: absolute;
+    width: 350px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #4C352D;
+    margin: 0 auto;
+}
+#home{
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    left: 88px;
+    top: 315px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+.text2{
+    position: absolute;
+    width: 240px;
+    height: 28px;
+    left: 60px;
+    top: 210px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.dom{
+    position: absolute;
+    width: 50px;
+    height: 39px;
+    left: -55px;
+    top: -8px;
+    -webkit-filter: grayscale(100%) brightness(150%);
+    filter: grayscale(100%) brightness(150%);
+}
