@@ -1,16 +1,13 @@
 body{
-    background: #000000; 
-    position: absolute;
-    width: 1090px;
-    height: 1024px;
-    margin:auto;
-    left:0;
-    right: 350px;
+    margin: 0;
+    display: flex;
+    height: 100vh;
 }
 
 #pokemon{
+   
     opacity: 0.6; 
-    
+
 }
 
 #avatar{
@@ -40,23 +37,31 @@ body{
 }
 
 .main{
-    position: absolute;
-    width: 1090px;
-    height: 1024px;
-    left: 350px;
-    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
-
+.fon1{
+    flex:1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url('/LearningPlatform/images/Rectangle\ 2.png')
+}
 .sidebar{
-    position: absolute;
+    padding: 16px 0px 0px 0px;
     width: 350px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: #4C352D;
-    margin: 0 auto;
+    
+    margin: 0;
+    display: flex;
+    height: 100vh;
 }
 #home{
+    list-style-type: none;
     position: absolute;
     width: 92px;
     height: 28px;
@@ -67,6 +72,8 @@ body{
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 
